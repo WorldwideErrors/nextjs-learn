@@ -10,9 +10,9 @@ import { usePathname } from 'next/navigation';
 import clsx from 'clsx';
  
 const links = [
-  { name: 'Home', href: '/', icon: HomeIcon },
-  { name: 'Customers', href: '/dashboard/customers', icon: UserGroupIcon },
-  { name: 'Invoices', href: '/dashboard/invoices', icon: DocumentDuplicateIcon },
+  { name: 'Home', href: 'https://nextjs-learn-rose-kappa.vercel.app/', icon: HomeIcon },
+  { name: 'Customers', href: 'https://nextjs-learn-rose-kappa.vercel.app/dashboard/customers', icon: UserGroupIcon },
+  { name: 'Invoices', href: 'https://nextjs-learn-rose-kappa.vercel.app/dashboard/invoices', icon: DocumentDuplicateIcon },
 ];
  
 export default function NavLinks() {
