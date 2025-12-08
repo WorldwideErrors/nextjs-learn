@@ -22,7 +22,7 @@
         "name": "next"
       }
     ],
-    "baseUrl": ".",
+    "baseUrl": "https://nextjs-learn-rose-kappa.vercel.app/",
     "paths": {
       "@/*": [
         "./*"
