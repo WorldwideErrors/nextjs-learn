@@ -1,8 +1,8 @@
-import Form from '@/app/ui/invoices/edit-form';
-import Breadcrumbs from '@/app/ui/invoices/breadcrumbs';
-import { fetchInvoiceById, fetchCustomers } from '@/app/lib/data';
-import { Metadata } from 'next';
 
+import { Metadata } from 'next';
+import { fetchCustomers, fetchInvoiceById } from '../../../../lib/data';
+import Breadcrumbs from '../../../../ui/invoices/breadcrumbs';
+import Form from '../../../../ui/invoices/edit-form'
 export const metadata: Metadata = {
   title: 'Edit Invoice',
 };
