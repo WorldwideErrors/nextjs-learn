@@ -45,7 +45,7 @@ For more information, see the [course curriculum](https://nextjs.org/learn) on t
 - ⚡ TypeScript supported
 - 🔧 Configured ESLint, PostCSS, Tailwind & Next.js settings
 
-## Installatie
+## Installation
 ```
 git clone https://github.com/WorldwideErrors/nextjs-learn.git
 cd nextjs-learn
@@ -55,5 +55,9 @@ npm install
 
 npm run dev
 ```
+
+## Login Demo
+Email:       user@nextmail.com
+Password:    123456
 
 x Jeffrey // WorldWideErrors
