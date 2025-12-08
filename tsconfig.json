@@ -25,7 +25,7 @@
     "baseUrl": "https://nextjs-learn-rose-kappa.vercel.app/",
     "paths": {
       "@/*": [
-        "./*"
+        "https://nextjs-learn-rose-kappa.vercel.app/*"
       ]
     }
   },
