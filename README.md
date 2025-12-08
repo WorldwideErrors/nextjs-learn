@@ -15,7 +15,7 @@ For more information, see the [course curriculum](https://nextjs.org/learn) on t
 - Bcrypt
 - Heroicons
 
-## Projectstructuur
+## File Explorer
 ```
 /
 ├── app/                   # App Router: routes, page’s, layouts and components
