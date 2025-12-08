@@ -1,10 +1,11 @@
-import RevenueChart from '@/app/ui/dashboard/revenue-chart';
-import LatestInvoices from '@/app/ui/dashboard/latest-invoices';
-import { lusitana } from '@/app/ui/fonts';
-import { Suspense } from 'react';
-import { CardSkeleton, LatestInvoicesSkeleton, RevenueChartSkeleton } from '@/app/ui/skeletons';
-import CardWrapper from '@/app/ui/dashboard/cards';
+
 import { Metadata } from 'next';
+import { lusitana } from '../../ui/fonts';
+import { Suspense } from 'react';
+import CardWrapper from '../../ui/dashboard/cards';
+import LatestInvoices from '../../ui/dashboard/latest-invoices';
+import RevenueChart from '../../ui/dashboard/revenue-chart';
+import { CardSkeleton, RevenueChartSkeleton, LatestInvoicesSkeleton } from '../../ui/skeletons';
 
 export const metadata: Metadata = {
   title: 'Home',

@@ -1,11 +1,11 @@
 'use server';
 
-import { signIn } from '@/auth';
 import { AuthError } from 'next-auth';
 import { z } from 'zod';
 import postgres from 'postgres';
 import { revalidatePath } from 'next/cache';
 import { redirect } from 'next/navigation';
+import { signIn } from '../../auth';
 
 const sql = postgres(process.env.POSTGRES_URL!, { ssl: 'require' });
 
